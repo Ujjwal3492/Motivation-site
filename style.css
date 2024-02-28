@@ -1,0 +1,122 @@
+.css-selector {
+    background: linear-gradient(252deg, #060560, #4c045e, #fb00f5);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 6s ease infinite;
+    -moz-animation: AnimationName 6s ease infinite;
+    animation: AnimationName 6s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:62% 0%}
+    50%{background-position:39% 100%}
+    100%{background-position:62% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:62% 0%}
+    50%{background-position:39% 100%}
+    100%{background-position:62% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:62% 0%}
+    50%{background-position:39% 100%}
+    100%{background-position:62% 0%}
+}
+
+.css-selectors {
+    background: linear-gradient(270deg, #012a7a, #5d0b71);
+    background-size: 400% 400%;
+
+    -webkit-animation: Animation 2s ease infinite;
+    -moz-animation: Animation 2s ease infinite;
+    animation: Animation 2s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes Animation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+body{
+    padding:0;
+    margin:0;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image:url("./assets/image/1331544.png");
+   
+}
+.main{
+   font-size: 50px;
+   color:white; 
+   border:3px solid white;
+   border-radius:20px;
+   font-family: sans-serif;
+}
+
+.container2{
+    width:100vw;
+    height:75vh;
+    display:flex;
+    justify-content: space-around;
+    margin-top:20px;
+
+}
+
+.item{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:60vh;
+    width:23vw;
+    margin-top:10px;
+
+}
+
+.text{
+    font-weight:bolder;
+    font-family: Roboto slab;
+    font-size: 40px;
+    color:azure;
+}
+
+.more{
+    display:flex;
+    justify-content: center;    
+    align-items:end;
+}
+
+.end{
+    height:20vh;
+    display:flex;
+    align-items: center;
+
+}
+.end>ul{
+    margin-top:10px;
+    list-style: disc;
+    color:white;
+    font-size: 24px;
+}
+
+.img>img{
+    width:300px;
+}
